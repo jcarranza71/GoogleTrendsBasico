@@ -17,7 +17,7 @@ if st.session_state.get("reset_app", False):
     st.rerun()
 
 # Configuración inicial
-st.set_page_config(page_title="Tendencias de Google", layout="centered")
+st.set_page_config(page_title="Tendencias en Google", page_icon="📈", layout="centered")
 st.markdown("""
     <div style='text-align: center;'>
         <div style='font-size: 70px;'>📈</div>
